@@ -48,6 +48,7 @@ nnoremap <Leader>O O<Esc>^Da
 
 nnoremap  <F5> :w <cr> <bar> :10split term://(g++ ./% -w -o %<.o && ./%<.o) <cr>
 nnoremap  <F6> :w <cr> <bar> :10split term://(python ./% ) <cr>
+nnoremap  <F7> :w <cr> <bar> :15split term://bash
 "
 "nnoremap <A-f> :Fern %:p:h -drawer -toggle<cr>
 nnoremap <A-j> :m+1<cr>
